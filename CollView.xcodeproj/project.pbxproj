@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1667062F4E02C895D3EE4583 /* Pods_CollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1FE71B8B7127D57BCAF42 /* Pods_CollView.framework */; };
 		182CA57A1CF2514600BF8CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CA5791CF2514600BF8CBC /* AppDelegate.swift */; };
 		182CA57C1CF2514600BF8CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CA57B1CF2514600BF8CBC /* ViewController.swift */; };
 		182CA57F1CF2514600BF8CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182CA57D1CF2514600BF8CBC /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		182CA5841CF2514600BF8CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182CA5821CF2514600BF8CBC /* LaunchScreen.storyboard */; };
 		182CA58F1CF2514700BF8CBC /* CollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CA58E1CF2514700BF8CBC /* CollViewTests.swift */; };
 		182CA59A1CF2514700BF8CBC /* CollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CA5991CF2514700BF8CBC /* CollViewUITests.swift */; };
+		182CA5A81CF252F700BF8CBC /* playerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CA5A71CF252F700BF8CBC /* playerCell.swift */; };
+		D73CC6512E5688370473B1B7 /* Pods_CollViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B7B52B119EB85184CF2179 /* Pods_CollViewTests.framework */; };
+		E216407B2F9B5B0FE308B3FE /* Pods_CollViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71DD10DF314F0D5A73FD4E8 /* Pods_CollViewUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0302ADE5EAF35F2284F73FFD /* Pods-CollViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollViewUITests/Pods-CollViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		182CA5761CF2514500BF8CBC /* CollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182CA5791CF2514600BF8CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		182CA57B1CF2514600BF8CBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		182CA5951CF2514700BF8CBC /* CollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182CA5991CF2514700BF8CBC /* CollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollViewUITests.swift; sourceTree = "<group>"; };
 		182CA59B1CF2514700BF8CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182CA5A71CF252F700BF8CBC /* playerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerCell.swift; sourceTree = "<group>"; };
+		1EAFE36916FD1E6554F5E27A /* Pods-CollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollView/Pods-CollView.debug.xcconfig"; sourceTree = "<group>"; };
+		24E1FE71B8B7127D57BCAF42 /* Pods_CollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3494D6A368469764EE865C8A /* Pods-CollViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollViewUITests/Pods-CollViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7110F1008A9EE62F9E56C278 /* Pods-CollViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollViewTests/Pods-CollViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		A71DD10DF314F0D5A73FD4E8 /* Pods_CollViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B7B52B119EB85184CF2179 /* Pods_CollViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA898D014007A7D4C261F632 /* Pods-CollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollView/Pods-CollView.release.xcconfig"; sourceTree = "<group>"; };
+		FEFEEC588405F71EA75540F4 /* Pods-CollViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollViewTests/Pods-CollViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1667062F4E02C895D3EE4583 /* Pods_CollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73CC6512E5688370473B1B7 /* Pods_CollViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E216407B2F9B5B0FE308B3FE /* Pods_CollViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				182CA58D1CF2514700BF8CBC /* CollViewTests */,
 				182CA5981CF2514700BF8CBC /* CollViewUITests */,
 				182CA5771CF2514500BF8CBC /* Products */,
+				32FD168672EC76A1E06C926F /* Pods */,
+				CC0F47559142B848F61EEADE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				182CA5801CF2514600BF8CBC /* Assets.xcassets */,
 				182CA5821CF2514600BF8CBC /* LaunchScreen.storyboard */,
 				182CA5851CF2514600BF8CBC /* Info.plist */,
+				182CA5A71CF252F700BF8CBC /* playerCell.swift */,
 			);
 			path = CollView;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = CollViewUITests;
 			sourceTree = "<group>";
 		};
+		32FD168672EC76A1E06C926F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EAFE36916FD1E6554F5E27A /* Pods-CollView.debug.xcconfig */,
+				FA898D014007A7D4C261F632 /* Pods-CollView.release.xcconfig */,
+				FEFEEC588405F71EA75540F4 /* Pods-CollViewTests.debug.xcconfig */,
+				7110F1008A9EE62F9E56C278 /* Pods-CollViewTests.release.xcconfig */,
+				0302ADE5EAF35F2284F73FFD /* Pods-CollViewUITests.debug.xcconfig */,
+				3494D6A368469764EE865C8A /* Pods-CollViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC0F47559142B848F61EEADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24E1FE71B8B7127D57BCAF42 /* Pods_CollView.framework */,
+				D1B7B52B119EB85184CF2179 /* Pods_CollViewTests.framework */,
+				A71DD10DF314F0D5A73FD4E8 /* Pods_CollViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182CA59E1CF2514700BF8CBC /* Build configuration list for PBXNativeTarget "CollView" */;
 			buildPhases = (
+				3401B87E54780042B390AE5A /* 📦 Check Pods Manifest.lock */,
 				182CA5721CF2514500BF8CBC /* Sources */,
 				182CA5731CF2514500BF8CBC /* Frameworks */,
 				182CA5741CF2514500BF8CBC /* Resources */,
+				1864F25610A955154ED22A0B /* 📦 Embed Pods Frameworks */,
+				DE641E16EF3BD69149D5BA5B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182CA5A11CF2514700BF8CBC /* Build configuration list for PBXNativeTarget "CollViewTests" */;
 			buildPhases = (
+				9A73142F60B6D56FA9344721 /* 📦 Check Pods Manifest.lock */,
 				182CA5861CF2514700BF8CBC /* Sources */,
 				182CA5871CF2514700BF8CBC /* Frameworks */,
 				182CA5881CF2514700BF8CBC /* Resources */,
+				984BDF7233D1847EF6FEFEB2 /* 📦 Embed Pods Frameworks */,
+				51D288EA80F2B1FA3DC19F30 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182CA5A41CF2514700BF8CBC /* Build configuration list for PBXNativeTarget "CollViewUITests" */;
 			buildPhases = (
+				539960841DA4C2E4D8085857 /* 📦 Check Pods Manifest.lock */,
 				182CA5911CF2514700BF8CBC /* Sources */,
 				182CA5921CF2514700BF8CBC /* Frameworks */,
 				182CA5931CF2514700BF8CBC /* Resources */,
+				687BDBB1909C2F21D973384A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +302,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1864F25610A955154ED22A0B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollView/Pods-CollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3401B87E54780042B390AE5A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51D288EA80F2B1FA3DC19F30 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollViewTests/Pods-CollViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		539960841DA4C2E4D8085857 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		687BDBB1909C2F21D973384A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollViewUITests/Pods-CollViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984BDF7233D1847EF6FEFEB2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollViewTests/Pods-CollViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A73142F60B6D56FA9344721 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE641E16EF3BD69149D5BA5B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollView/Pods-CollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		182CA5721CF2514500BF8CBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				182CA57C1CF2514600BF8CBC /* ViewController.swift in Sources */,
+				182CA5A81CF252F700BF8CBC /* playerCell.swift in Sources */,
 				182CA57A1CF2514600BF8CBC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +574,7 @@
 		};
 		182CA59F1CF2514700BF8CBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAFE36916FD1E6554F5E27A /* Pods-CollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollView/Info.plist;
@@ -410,6 +586,7 @@
 		};
 		182CA5A01CF2514700BF8CBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA898D014007A7D4C261F632 /* Pods-CollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollView/Info.plist;
@@ -421,6 +598,7 @@
 		};
 		182CA5A21CF2514700BF8CBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEFEEC588405F71EA75540F4 /* Pods-CollViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CollViewTests/Info.plist;
@@ -433,6 +611,7 @@
 		};
 		182CA5A31CF2514700BF8CBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7110F1008A9EE62F9E56C278 /* Pods-CollViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CollViewTests/Info.plist;
@@ -445,6 +624,7 @@
 		};
 		182CA5A51CF2514700BF8CBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0302ADE5EAF35F2284F73FFD /* Pods-CollViewUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CollViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +636,7 @@
 		};
 		182CA5A61CF2514700BF8CBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3494D6A368469764EE865C8A /* Pods-CollViewUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CollViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +665,7 @@
 				182CA5A01CF2514700BF8CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182CA5A11CF2514700BF8CBC /* Build configuration list for PBXNativeTarget "CollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +674,7 @@
 				182CA5A31CF2514700BF8CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182CA5A41CF2514700BF8CBC /* Build configuration list for PBXNativeTarget "CollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +683,7 @@
 				182CA5A61CF2514700BF8CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
