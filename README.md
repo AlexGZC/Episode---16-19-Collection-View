@@ -1,7 +1,14 @@
 ## UICollectionView
 
 In this project we have a simple UICollectionView with check - Uncheck functionality 
-+ we are downloading collection view cell images from URL using 'Alamofire Image'.
++ we are downloading collection view cell images from URL using 'Alamofire Image'.   
+ 
+
+## YouTube Tutorial Link   
+
+
+https://www.youtube.com/watch?v=oXyc8WhYimw
+
 
 ## Requirements
 Alamofire image Pods   
